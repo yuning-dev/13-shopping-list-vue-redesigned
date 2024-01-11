@@ -1,0 +1,62 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.wrapper {
+    margin-top: 40px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid blue;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.addItemWrapper {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.addItemInput {
+    width: 300px;
+}
+
+.itemsWrapper {
+    border: 1px solid blueviolet;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bottomBtnsWrapper {
+    width: 700px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.deleteAllBtn {
+    float: right;
+
+}
+
+.modalBtnsWrapper {
+    width: 80%;
+    margin: 15px auto 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
